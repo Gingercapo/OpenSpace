@@ -1,5 +1,6 @@
 # OpenSpace
-I Have you dreamt about exploring deep space? 
+
+# I have you dreamt about exploring deep space
 
 In this project, I will create a simple web game where I can launch a rocket from an uninhabited planet. 
 
