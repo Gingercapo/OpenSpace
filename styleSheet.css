@@ -1,0 +1,86 @@
+
+body {
+    margin: 0;
+    padding: 10px;
+    background-color: black;
+}
+
+.space {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: url("https://stepik.org/media/attachments/lesson/452681/space.png");
+}
+
+.planet-area {
+    position:fixed;
+    bottom:0;
+    left:0;
+}
+
+.planet {
+    position:relative;
+    width:500px;
+    bottom: -10px;
+    right: 10px;
+}
+
+.rocket {
+    width: 150px;
+    position: relative;
+    right: 300px;
+    bottom: 270px;
+    transform: rotate(25deg);
+    z-index: 1;
+}
+
+.control-panel {
+    position: fixed;
+    right: 50px;
+    bottom: 30%;
+    background-color: #FFB703;
+    background-image: repeating-linear-gradient(45deg, transparent, transparent 35px, #FB8500 35px, #FB8500 70px);
+}
+
+.control-panel__inner {
+    margin: 20px;
+    background-color: black;
+    text-align: center;
+}
+
+input[type="checkbox"]{
+
+
+
+
+
+}
+
+input[type="range"] {
+    justify-content: space-around;
+    flex-grow: 1;
+    -webkit-appearance: slider-vertical;
+}
+
+.check-buttons {
+
+
+}
+
+.levers {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+
+input[type="password"],[type="button"][value="OK"] {
+    border: 4px solid #219EBC;
+    color: #023047;
+    border-radius: 5px;
+    justify-content: space-between;
+    padding: 10px 20px 10px 10px;
+    margin: 15px 30px 20px 30px;
+}
+
+
+input[type="button"][value="
